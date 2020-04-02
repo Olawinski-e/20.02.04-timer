@@ -1,0 +1,51 @@
+body {
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: palevioletred;
+}
+
+.container {
+  margin-top: 10%;
+  width: 50%;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 60px;
+}
+
+#count {
+  font-family: sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+}
+
+#count > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: palevioletred;
+  display: inline-block;
+}
+
+#count div > span {
+  padding: 15px;
+  border-radius: 3px;
+  background: lightpink;
+  display: inline-block;
+}
+
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
+}
